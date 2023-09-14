@@ -1,5 +1,11 @@
 module MeuNovoPacote
 
-# Write your package code here.
+using TestItems
+using StaticArrays
+
+export f, g
+
+include("f.jl")
+include("g.jl")
 
 end
